@@ -1,92 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Landing Page</title>
+  <title>Trabook</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="style.css">
 </head>
 
-
-
-
 <body>
+
+<!-- Navbar -->
+<header class="navbar">
+  <h2 class="logo">Trabook</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Destination</a>
+    <a href="#">Tour</a>
+    <a href="#">Blog</a>
+  </nav>
+  <div class="auth">
+    <button class="login">Login</button>
+    <button class="signup">Sign Up</button>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Get started your exciting <span>journey</span> with us.</h1>
+    <p>A team of experienced tourism professionals will provide you with the best advice and tips.</p>
+    <button class="btn">Discover Now</button>
+  </div>
+
+  <div class="hero-img">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="travel">
+  </div>
+</section>
 
 <!-- Things Section -->
 <section class="things">
   <h2>Things you need to do</h2>
   <div class="things-container">
-
-    <div class="thing-card">
-      <h3>Sign Up</h3>
-      <p>Complete your profile</p>
-    </div>
-
-    <div class="thing-card">
-      <h3>Find Location</h3>
-      <p>Search your destination</p>
-    </div>
-
-    <div class="thing-card">
-      <h3>Book Trip</h3>
-      <p>Enjoy your journey</p>
-    </div>
-
+    <div class="card">Sign Up</div>
+    <div class="card">Find Location</div>
+    <div class="card">Book Trip</div>
   </div>
 </section>
 
+<!-- Deals Section -->
 <section class="deals">
   <h2>Exclusive deals & discounts</h2>
-
-  <div class="deal-cards">
-
+  <div class="cards">
     <div class="deal">
-      <img src="https://picsum.photos/200/150">
+      <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34">
       <p>Paris</p>
     </div>
-
     <div class="deal">
-      <img src="https://picsum.photos/200/150">
+      <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad">
       <p>London</p>
     </div>
-
     <div class="deal">
-      <img src="https://picsum.photos/200/150">
+      <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad">
       <p>Dubai</p>
     </div>
-
   </div>
 </section>
 
-<section class="vacation">
-  <h2>Best vacation plan</h2>
-
-  <div class="vacation-cards">
-
-    <div class="vac-card">
-      <img src="https://picsum.photos/200/150" alt="Italy">
-      <h3>Italy</h3>
-      <p>$500</p>
-    </div>
-
-    <div class="vac-card">
-      <img src="https://picsum.photos/200/150" alt="Maldives">
-      <h3>Maldives</h3>
-      <p>$800</p>
-    </div>
-
-    <div class="vac-card">
-      <img src="https://picsum.photos/200/150" alt="Greece">
-      <h3>Greece</h3>
-      <p>$650</p>
-    </div>
-
-  </div>
-</section>
-
-<footer class="footer">
+<!-- Footer -->
+<footer>
   <h3>Trabook</h3>
   <p>Your travel partner</p>
-  <p>© 2026 All rights reserved</p>
 </footer>
 
 </body>
